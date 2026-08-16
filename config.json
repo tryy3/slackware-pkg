@@ -143,7 +143,7 @@
       "enabled": true,
       "build_env": "rust",
       "build_command": "cargo build --release",
-      "bin_path": "target/release/dua-cli"
+      "bin_path": "target/release/dua"
     }
   ]
 }
