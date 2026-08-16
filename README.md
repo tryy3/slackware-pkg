@@ -8,6 +8,7 @@ A Python tool to build packages from source into Slackware package format (.tgz)
 
 | Package | Tags |
 |---|---|
+| dua | 2.42.1 |
 | dust | 1.2.3 |
 | fd | 10.3.0 |
 | lazydocker | 0.24.1 |
