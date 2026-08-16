@@ -133,6 +133,17 @@
       "build_env": "go",
       "build_command": "CGO_ENABLED=0 GOOS=linux go build",
       "bin_path": "yq"
+    },
+    {
+      "name": "dua",
+      "git_url": "https://github.com/Byron/dua-cli.git",
+      "tag": "v2.42.1",
+      "description": "View disk space usage and delete unwanted data, fast.",
+      "build": 1,
+      "enabled": true,
+      "build_env": "rust",
+      "build_command": "cargo build --release",
+      "bin_path": "target/release/dua-cli"
     }
   ]
 }
